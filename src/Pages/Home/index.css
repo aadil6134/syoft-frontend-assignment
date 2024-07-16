@@ -1,0 +1,132 @@
+/* styles.css */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile-name h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+  }
+  
+  .profile-name p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .profile-details {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f9;
+  }
+  
+  .detail-item span {
+    font-weight: bold;
+    color: #6200ea;
+  }
+  
+  .detail-item p {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .profile-header {
+      padding: 15px;
+    }
+  
+    .profile-picture img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .profile-name h1 {
+      font-size: 20px;
+    }
+  
+    .profile-name p {
+      font-size: 14px;
+    }
+  
+    .profile-details {
+      padding: 15px;
+    }
+  
+    .detail-item {
+      padding: 8px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-header {
+      padding: 10px;
+    }
+  
+    .profile-picture img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .profile-name h1 {
+      font-size: 18px;
+    }
+  
+    .profile-name p {
+      font-size: 12px;
+    }
+  
+    .profile-details {
+      padding: 10px;
+    }
+  
+    .detail-item {
+      padding: 5px 0;
+    }
+  }
+  
